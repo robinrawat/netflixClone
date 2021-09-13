@@ -5,7 +5,7 @@ import { environment } from 'src/environments/environment';
 import { Movies } from '../models/movies';
 
 const enum endpoint {
-  latest = '/movie/latest',
+  latest = 'movie/latest',
   now_playing = 'movie/now_playing',
   popular = 'movie/popular',
   top_rated = 'movie/top_rated',
